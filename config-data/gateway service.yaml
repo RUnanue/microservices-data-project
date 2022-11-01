@@ -6,6 +6,6 @@ spring:
     gateway:
       routes:
         - id: h2-justificativo-service
-          uri: lb://h2-justificativo-service
+          uri: http://localhost:8082
           predicates:
             - Path=/justificativo/**
