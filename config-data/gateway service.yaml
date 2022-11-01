@@ -1,0 +1,11 @@
+server:
+  port: 8086
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: h2-justificativo-service
+          uri: lb://h2-justificativo-service
+          predicates:
+            - Path=/justificativo/**
