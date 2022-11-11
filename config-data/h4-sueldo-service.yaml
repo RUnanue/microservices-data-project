@@ -11,8 +11,3 @@ spring:
     username: root
     password: mysql9911
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: *
