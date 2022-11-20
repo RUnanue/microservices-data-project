@@ -7,6 +7,6 @@ spring:
       ddl-auto: update
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/bd?serverTimezone=UTC
+    url:  jdbc:mysql://mysql-db3:3306/bd3
     username: root
-    password: mysql9911
+    password: 123456
