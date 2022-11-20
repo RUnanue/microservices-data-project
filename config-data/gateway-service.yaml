@@ -13,7 +13,7 @@ spring:
             allowedHeaders: "*"
       routes:
         - id: h1-empleado-service
-          uri: http://localhost:8011
+          uri: http://h1-empleado-service:8011
           predicates:
             - Path=/empleado/**, /diahorario/**, /usuario/**
         - id: h2-justificativo-service
