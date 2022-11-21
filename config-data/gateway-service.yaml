@@ -17,9 +17,9 @@ spring:
           predicates:
             - Path=/empleado/**, /diahorario/**, /usuario/**
         - id: h2-justificativo-service
-          uri: http://localhost:8012
+          uri: http://h2-justificativo-service:8012
           predicates:
-            - Path=/h2-justificativo-service/**
+            - Path=/justificativo/**
         - id: h3-hextra-service
           uri: http://h3-hextra-service:8013
           predicates:
