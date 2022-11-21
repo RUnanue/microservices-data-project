@@ -13,23 +13,23 @@ spring:
             allowedHeaders: "*"
       routes:
         - id: h1-empleado-service
-          uri: http://h1-empleado-service:8011
+          uri: http://localhost:8011
           predicates:
             - Path=/empleado/**, /diahorario/**, /usuario/**
         - id: h2-justificativo-service
-          uri: http://h2-justificativo-service:8012
+          uri: http://localhost:8012
           predicates:
             - Path=/justificativo/**
         - id: h3-hextra-service
-          uri: http://h3-hextra-service:8013
+          uri: http://localhost:8013
           predicates:
             - Path=/hextra/**
         - id: h4-sueldo-service
-          uri: http://h4-sueldo-service:8014
+          uri: http://localhost:8014
           predicates:
             - Path=/sueldo/**
         - id: h5-reporte-service
-          uri: http://h5-reporte-service:8015
+          uri: http://localhost:8015
           predicates:
             - Path=/reporte/**
 
