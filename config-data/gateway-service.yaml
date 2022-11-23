@@ -32,10 +32,6 @@ spring:
           uri: http://h5-reporte-service:8015
           predicates:
             - Path=/reporte/**
-	- id: monitorizacion
-	  uri: http://localhost:8014
-	  predicates:
-            - Path=/actuator/**
 
 
 
